@@ -1,0 +1,227 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				},
+				{
+					"build" : ".cs211/lib/catch",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.cs211.lib.catch-Debug-b0b6090a1ca9ce7695f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : ".cs211/lib/catch",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : ".cs211/lib/ge211",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.cs211.lib.ge211-Debug-9b6b4ac322c294dc6043.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : ".cs211/lib/ge211"
+				},
+				{
+					"build" : ".cs211/lib/ge211/3rdparty/utf8-cpp",
+					"jsonFile" : "directory-.cs211.lib.ge211.3rdparty.utf8-cpp-Debug-a28b2d44172fdbeafc4f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : ".cs211/lib/ge211/3rdparty/utf8-cpp"
+				},
+				{
+					"build" : ".cs211/lib/ge211/src",
+					"jsonFile" : "directory-.cs211.lib.ge211.src-Debug-75c4c04c25bdf4409939.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : ".cs211/lib/ge211/src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : ".cs211/lib/ge211/example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.cs211.lib.ge211.example-Debug-011a7e168249743145e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : ".cs211/lib/ge211/example",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "game",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Catch2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						4
+					],
+					"name" : "ge211",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "utf8-cpp",
+					"parentIndex" : 2
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "ge211_examples",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "catch::@be6f5491b685a53c462d",
+					"jsonFile" : "target-catch-Debug-e5983117384f8f292aeb.json",
+					"name" : "catch",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fireworks::@7a7c4f16a1d6abcd2711",
+					"jsonFile" : "target-fireworks-Debug-63b45759350d88ddf2d8.json",
+					"name" : "fireworks",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "game::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-game-Debug-43a1bd78dc3767231744.json",
+					"name" : "game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ge211::@c6d847fed01cad5c45fc",
+					"jsonFile" : "target-ge211-Debug-601e06356fdc336e7647.json",
+					"name" : "ge211",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "model_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-model_test-Debug-6c5dbeed8b9a67a23fd4.json",
+					"name" : "model_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/prashant/Desktop/Snakes_And_Laddes/cmake-build-debug",
+		"source" : "/Users/prashant/Desktop/Snakes_And_Laddes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

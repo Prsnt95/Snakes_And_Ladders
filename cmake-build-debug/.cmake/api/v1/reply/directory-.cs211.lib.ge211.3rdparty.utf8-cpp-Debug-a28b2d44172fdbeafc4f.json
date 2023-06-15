@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : ".cs211/lib/ge211/3rdparty/utf8-cpp",
+		"source" : ".cs211/lib/ge211/3rdparty/utf8-cpp"
+	}
+}

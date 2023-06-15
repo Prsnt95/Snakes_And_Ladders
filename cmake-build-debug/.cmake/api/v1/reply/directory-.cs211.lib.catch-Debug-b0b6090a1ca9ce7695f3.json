@@ -1,0 +1,104 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			".cs211/lib/catch/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				".cs211/lib/catch/libcatch.a"
+			],
+			"targetId" : "catch::@be6f5491b685a53c462d",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : ".cs211/lib/catch/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/Catch2",
+			"exportName" : "Catch2Config",
+			"exportTargets" : 
+			[
+				{
+					"id" : "catch::@be6f5491b685a53c462d",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				".cs211/lib/catch/CMakeFiles/Export/00a0046ee8790b511fa658097af75ba8/Catch2Config.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/Catch2",
+			"paths" : 
+			[
+				"cmake-build-debug/.cs211/lib/catch/Catch2/Catch2ConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".cs211/lib/catch",
+		"source" : ".cs211/lib/catch"
+	}
+}

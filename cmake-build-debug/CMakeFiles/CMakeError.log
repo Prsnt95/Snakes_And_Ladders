@@ -1,0 +1,32 @@
+Performing C++ SOURCE FILE Test CXXFLAG_WCAST_ALIGN_STRICT_OKAY failed with the following output:
+Change Dir: /Users/prashant/Desktop/Snakes_And_Laddes/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W5VQgL
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d5c6a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d5c6a.dir/build.make CMakeFiles/cmTC_d5c6a.dir/build
+Building CXX object CMakeFiles/cmTC_d5c6a.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCXXFLAG_WCAST_ALIGN_STRICT_OKAY  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics   -Wcast-align=strict -MD -MT CMakeFiles/cmTC_d5c6a.dir/src.cxx.o -MF CMakeFiles/cmTC_d5c6a.dir/src.cxx.o.d -o CMakeFiles/cmTC_d5c6a.dir/src.cxx.o -c /Users/prashant/Desktop/Snakes_And_Laddes/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-W5VQgL/src.cxx
+[0;1;35mwarning: [0m[1munknown warning option '-Wcast-align=strict'; did you mean '-Wcast-align'? [-Wunknown-warning-option][0m
+1 warning generated.
+Linking CXX executable cmTC_d5c6a
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5c6a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d5c6a.dir/src.cxx.o -o cmTC_d5c6a 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXXFLAG_WERROR_BOOL_COMPARE_OKAY failed with the following output:
+Change Dir: /Users/prashant/Desktop/Snakes_And_Laddes/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e87v0o
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_75188/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_75188.dir/build.make CMakeFiles/cmTC_75188.dir/build
+Building CXX object CMakeFiles/cmTC_75188.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DCXXFLAG_WERROR_BOOL_COMPARE_OKAY  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics   -Werror=bool-compare -MD -MT CMakeFiles/cmTC_75188.dir/src.cxx.o -MF CMakeFiles/cmTC_75188.dir/src.cxx.o.d -o CMakeFiles/cmTC_75188.dir/src.cxx.o -c /Users/prashant/Desktop/Snakes_And_Laddes/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e87v0o/src.cxx
+[0;1;35mwarning: [0m[1munknown warning option '-Werror=bool-compare' [-Wunknown-warning-option][0m
+1 warning generated.
+Linking CXX executable cmTC_75188
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75188.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_75188.dir/src.cxx.o -o cmTC_75188 
+
+
+Source file was:
+int main() { return 0; }
+

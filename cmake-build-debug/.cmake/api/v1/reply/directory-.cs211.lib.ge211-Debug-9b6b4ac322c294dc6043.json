@@ -1,0 +1,143 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"include"
+		],
+		"files" : 
+		[
+			".cs211/lib/ge211/cmake/Ge211Installer.cmake",
+			".cs211/lib/ge211/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 27,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				".cs211/lib/ge211/src/libge211.a"
+			],
+			"targetId" : "ge211::@c6d847fed01cad5c45fc",
+			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : ".cs211/lib/ge211/include",
+					"to" : "."
+				},
+				{
+					"from" : "cmake-build-debug/.cs211/lib/ge211/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "share/ge211",
+			"paths" : 
+			[
+				{
+					"from" : ".cs211/lib/ge211/Resources",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/Ge211",
+			"exportName" : "Ge211Config",
+			"exportTargets" : 
+			[
+				{
+					"id" : "ge211::@c6d847fed01cad5c45fc",
+					"index" : 3
+				},
+				{
+					"id" : "utf8-cpp::@dd2f25e3a2a2387b88fd",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				".cs211/lib/ge211/CMakeFiles/Export/5431a1aa8124badee94588c5300a5a41/Ge211Config.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/Ge211",
+			"paths" : 
+			[
+				"cmake-build-debug/.cs211/lib/ge211/Ge211/Ge211ConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".cs211/lib/ge211",
+		"source" : ".cs211/lib/ge211"
+	}
+}
